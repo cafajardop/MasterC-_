@@ -10,14 +10,26 @@ namespace MasterOfPopets
     {
         static void Main(string[] args)
         {
-            string[] Nombres = { "Julieta", "Valeria", "Carlos", "Ximena" };
+            string[] Nombres = { "Julieta", "Valeria", "Carlos", "Ximena","Andres" };
+            Console.WriteLine("El numero de elementos es: " + Nombres.Length);
+            Console.WriteLine("El ultimo Nombre es: " + Nombres[3]);
 
+
+            //Acceder al ultimo elemento
+
+            Console.WriteLine("El ultimo elemento es: " + Nombres[Nombres.Length - 1]);
+             
+            //Recorrer los elementos
             for (int i = 0; i < Nombres.Length; i++)
             {
-                Console.WriteLine(Nombres[i]);
-
+                Console.WriteLine("El nombre corresponde a: " +  Nombres[i]);
             }
-                Console.ReadLine();
+
+            foreach (string Nom in Nombres)
+            {
+                Console.WriteLine(Nom);
+            }
+            Console.ReadLine();
         }
     }
 }
