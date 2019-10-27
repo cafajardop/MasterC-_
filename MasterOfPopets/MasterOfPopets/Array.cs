@@ -14,7 +14,6 @@ namespace MasterOfPopets
             Console.WriteLine("El numero de elementos es: " + Nombres.Length);
             Console.WriteLine("El ultimo Nombre es: " + Nombres[3]);
 
-
             //Acceder al ultimo elemento
 
             Console.WriteLine("El ultimo elemento es: " + Nombres[Nombres.Length - 1]);
