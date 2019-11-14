@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColeccionsParte2", "Colecci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListRecibeTodoTipoDato", "ArrayListRecibeTodoTipoDato\ArrayListRecibeTodoTipoDato.csproj", "{FB8F3E0C-F9F0-4FB0-8B24-EECA50BB1BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diccionarios", "Diccionarios\Diccionarios.csproj", "{369C0316-C6A1-4E4D-8536-819A41E175DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{FB8F3E0C-F9F0-4FB0-8B24-EECA50BB1BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8F3E0C-F9F0-4FB0-8B24-EECA50BB1BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8F3E0C-F9F0-4FB0-8B24-EECA50BB1BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369C0316-C6A1-4E4D-8536-819A41E175DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369C0316-C6A1-4E4D-8536-819A41E175DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369C0316-C6A1-4E4D-8536-819A41E175DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369C0316-C6A1-4E4D-8536-819A41E175DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

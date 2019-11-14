@@ -41,10 +41,41 @@ namespace ColeccionsParte2
             //Metodo borrar lista
             oCliente6.Clear();
 
+            //Metodo Find devuelve solo el primero
+           Cliente oClienteResultado =  ListaClientes.Find(p => p.nombre.Equals("Nelly"));
+
+            if (oClienteResultado != null)
+                Console.WriteLine(oClienteResultado.apPaterno);
+            else
+                Console.WriteLine("No se encontro el objeto");
+
+            //Metodo FindAll para traer todos los nombres que comienzan por a
+            List<Cliente> ListaClientesTodos = ListaClientes.FindAll(p => p.nombre.StartsWith("A"));
+            foreach (Cliente cliente in ListaClientesTodos)
+            {
+                Console.WriteLine(cliente.nombre);
+            }
+
+            //Agregar en la primera columna metodo Insert
+            ListaClientesTodos.Insert(0, new Cliente("Carlos", "Fajardo", "Pedraza", 35, "La serena");
+
             foreach (Cliente item in oCliente6)
             {
                 Console.WriteLine("Estoy agregando el addrange: " + item.nombre);
             }
+
+            //Agregamos en la posicion que querramos
+            ListaClientesTodos.InsertRange(2, ListaClientes);
+
+            //Borrar con los que terminen con n (RemoveAll)
+            ListaClientes.RemoveAll(p => p.nombre.EndsWith("n"));
+
+            //Si queremos borrar un solo cliente con find entonces hacemos lo siguiente 
+            Cliente oClienteBorrar = ListaClientes.Find(p => p.nombre.EndsWith("o"));
+            ListaClientes.Remove(oClienteBorrar);
+
+            //Si queremos buscar por posicion lo hacemos con RemoveAt
+            ListaClientes.RemoveAt(0);
 
             Console.ReadLine();
         }
