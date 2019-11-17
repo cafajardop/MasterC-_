@@ -57,7 +57,7 @@ namespace ColeccionsParte2
             }
 
             //Agregar en la primera columna metodo Insert
-            ListaClientesTodos.Insert(0, new Cliente("Carlos", "Fajardo", "Pedraza", 35, "La serena");
+            ListaClientesTodos.Insert(0, new Cliente("Carlos", "Fajardo", "Pedraza", 35, "La serena"));
 
             foreach (Cliente item in oCliente6)
             {

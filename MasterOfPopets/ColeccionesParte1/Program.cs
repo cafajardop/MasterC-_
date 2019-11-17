@@ -65,6 +65,10 @@ namespace ColeccionesParte1
                 Console.WriteLine(item.nombre);
             }
 
+            string cutOffDate = DateTime.Now.ToString();
+
+            Console.WriteLine(cutOffDate);
+
             Console.ReadLine();
         }
     }
