@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,6 +67,23 @@ namespace MetodosArrays
             {
                 Console.WriteLine("No existe Array.Exists con StartsWith nos devuelve un true o false en caso de que exista en el arreglo");
             }
+
+            //Ejemplo de acceso a elementos
+            ArrayList myArryList = new ArrayList();
+            myArryList.Add(1);
+            myArryList.Add("Two");
+            myArryList.Add(3);
+            myArryList.Add(4.5f);
+
+            //Access individual item using indexer
+            int firstElement = (int)myArryList[0]; //returns 1
+            string secondElement = (string)myArryList[1]; //returns "Two"
+            int thirdElement = (int)myArryList[2]; //returns 3
+            float fourthElement = (float)myArryList[3]; //returns 4.5
+
+            //use var keyword
+            var firstElementVar = myArryList[0]; //returns 1
+
 
             Console.ReadLine();
 
