@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6706EA32-7AA5-4775-A95E-74DFBBEC2D86}</ProjectGuid>
+    <ProjectGuid>{03FACE0B-8189-4A0C-BF62-EAA60457BAA4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Excepciones</RootNamespace>
-    <AssemblyName>Excepciones</AssemblyName>
+    <RootNamespace>IndexOf</RootNamespace>
+    <AssemblyName>IndexOf</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

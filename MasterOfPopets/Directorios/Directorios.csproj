@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6706EA32-7AA5-4775-A95E-74DFBBEC2D86}</ProjectGuid>
+    <ProjectGuid>{B44926F4-08AB-4342-9661-60D53B16B80F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Excepciones</RootNamespace>
-    <AssemblyName>Excepciones</AssemblyName>
+    <RootNamespace>Directorios</RootNamespace>
+    <AssemblyName>Directorios</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
