@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOf", "IndexOf\IndexOf.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoDeArchivos", "ManejoDeArchivos\ManejoDeArchivos.csproj", "{66BA9A47-CEFE-4000-A250-5387611B8611}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaWindowsForms", "TareaWindowsForms\TareaWindowsForms.csproj", "{32F7D068-E19D-4EC5-8156-ED94261CB872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{66BA9A47-CEFE-4000-A250-5387611B8611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BA9A47-CEFE-4000-A250-5387611B8611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BA9A47-CEFE-4000-A250-5387611B8611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F7D068-E19D-4EC5-8156-ED94261CB872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F7D068-E19D-4EC5-8156-ED94261CB872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F7D068-E19D-4EC5-8156-ED94261CB872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F7D068-E19D-4EC5-8156-ED94261CB872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
